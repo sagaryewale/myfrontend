@@ -1,0 +1,18 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer className="page-footer fixed-bottom bg-secondary text-dark py-2">
+      <div className="container-fluid">
+        <p className="text-center">Copyright &copy; ehealthcare.cdacblr@gmail.com</p>
+      </div>
+    </footer>
+    // <footer className="bg-dark text-light py-2">
+    //     <p className="text-center">
+    //         Copyright &copy; MyTodolist.com
+    //     </p>
+    // </footer>
+  );
+};
+
+export default Footer;

@@ -36,3 +36,262 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.header{
+  background: rgb(58,4,83);
+background: linear-gradient(90deg, rgba(58,4,83,1) 0%,rgb(139, 7, 7) 50%, rgb(255, 166, 1) 100%);
+}
+.App-link {
+  color: #61dafb;
+}
+.Homebutton{
+  font-size: 1em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 15px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+
+}
+#About{
+animation-delay: 1s;
+}
+
+@keyframes animate {
+from {
+filter: hue-rotate(0deg);
+}
+to {
+filter: hue-rotate(360deg);
+}
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.py{
+  color: blue;
+  font-weight: bold;
+}
+.cab{
+  background-image: url("https://resources.vercida.com/hs-fs/hubfs/Mental%20Health%20September%202021%20newsletter/Mental%20Health%20Month%20September%202021%20page/Mental%20health%20v2.jpg?width=711&name=Mental%20health%20v2.jpg");
+         margin: 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+
+.backAbout{
+  background-image: url("https://image.shutterstock.com/image-photo/businessman-on-blurred-background-using-260nw-1382058395.jpg");
+         margin-left: 0%;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.adminBack{
+  background-image: url("https://www.asiapacifichealthcaremanagement.org/wp-content/uploads/2020/01/healthcare-background.jpg");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.docBack{
+  background-image: url("https://www.pilotpartners.com.au/wp-content/uploads/2019/08/iStock-1001713236-medical-plain.jpg");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.patientBack{
+  background-image: url("https://i.ytimg.com/vi/J0BPoofmPkw/maxresdefault.jpg");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;   
+           
+}
+
+.loginBack{
+  background-image: url("https://images.theconversation.com/files/200232/original/file-20171220-4957-hspudb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;   
+           
+}
+
+
+.aboutcolor{
+  color:green;
+}
+
+
+.appName {
+  color :black;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/* #action.a{
+  font-family: 'Courier New', Courier, monospace !important;
+} */
+
+.appName:hover {
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  color: rgb(0, 162, 255) !important;
+ 
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+
+
+
+
+
+
+.navigi {
+  position: relative;
+  height: 40px;
+  width: 150px;
+  font-weight: bolder;
+  
+  border: none;
+  outline: none;
+  color: black;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigi:before {
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(10px);
+  
+  /* background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000); */
+  background: rgb(211, 164, 164);
+  background-size: 400%;
+  transition: opacity .1s ease-in-out;
+  animation: animate 3s linear infinite
+}
+
+.navigi:hover:before {
+  opacity: 1
+  
+}
+
+.navigi:hover:active {
+  background: none !important
+}
+
+.navigi:hover:active:before {
+  filter: blur(2px)
+}
+
+@keyframes animate {
+  0% {
+      background-position: 0 0
+  }
+
+  50% {
+      background-position: 400% 0
+  }
+
+  100% {
+      background-position: 0 0
+  }
+} 
+
+
+.navigi2 {
+  position: relative;
+  height: 40px;
+  width: 150px;
+  font-weight: bolder;
+  
+  border: none;
+  outline: none;
+  color: black;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigi2 :hover :active{
+  color: rgb(0, 162, 255) !important; 
+  background-color: red;
+}
+
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;}
+
+.shadow2{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
