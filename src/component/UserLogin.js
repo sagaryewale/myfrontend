@@ -110,7 +110,7 @@ class UserLogin extends Component {
                     >
                         <form
                             className="container  shadow pt-2 border-dark rounded"
-                            style={{ width: "30vw", backgroundColor: "rgba(0,0,0,0.8)" }}
+                            style={{ width: "30vw", backgroundColor: "rgba(0,0,0,0.5)" }}
                         >
                             <h2 className="text-center text-light mb-4">
                                 Login to your Account

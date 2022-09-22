@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -111,7 +112,7 @@ filter: hue-rotate(360deg);
   font-weight: bold;
 }
 .cab{
-  background-image: url("https://resources.vercida.com/hs-fs/hubfs/Mental%20Health%20September%202021%20newsletter/Mental%20Health%20Month%20September%202021%20page/Mental%20health%20v2.jpg?width=711&name=Mental%20health%20v2.jpg");
+  background-image: url("./image/6.webp");
          margin: 0%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -119,14 +120,14 @@ filter: hue-rotate(360deg);
 }
 
 .backAbout{
-  background-image: url("https://image.shutterstock.com/image-photo/businessman-on-blurred-background-using-260nw-1382058395.jpg");
+  background-image: url("./image/5.jpg");
          margin-left: 0%;
         background-repeat: no-repeat;
         background-size: cover;      
 }
 
 .adminBack{
-  background-image: url("https://www.asiapacifichealthcaremanagement.org/wp-content/uploads/2020/01/healthcare-background.jpg");
+  background-image: url("./image/1.jpg.jpg");
          margin-left: 0%;
          margin-top: 0%;
          width : 100%;
@@ -136,7 +137,7 @@ filter: hue-rotate(360deg);
 }
 
 .docBack{
-  background-image: url("https://www.pilotpartners.com.au/wp-content/uploads/2019/08/iStock-1001713236-medical-plain.jpg");
+  background-image: url("./image/2.jpg.jpg");
          margin-left: 0%;
          margin-top: 0%;
          width : 100%;
@@ -146,7 +147,7 @@ filter: hue-rotate(360deg);
 }
 
 .patientBack{
-  background-image: url("https://i.ytimg.com/vi/J0BPoofmPkw/maxresdefault.jpg");
+  background-image: url("./image/7.jpg");
          margin-left: 0%;
          margin-top: 0%;
          width : 100%;
@@ -157,7 +158,7 @@ filter: hue-rotate(360deg);
 }
 
 .loginBack{
-  background-image: url("https://images.theconversation.com/files/200232/original/file-20171220-4957-hspudb.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop");
+  background-image: url("./image/3.jpg.jpg");
          margin-left: 0%;
          margin-top: 0%;
          width : 100%;

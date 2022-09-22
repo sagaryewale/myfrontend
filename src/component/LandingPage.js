@@ -63,9 +63,9 @@ const LandingPage = () => {
                     <div className="wrapper col-8 d-flex flex-column justify-content-center align-items-center ">
                       <div
                         className=" d-flex flex-column justify-content-center align-items-center shadow p-4 rounded"
-                        style={{ backgroundColor: "blue" }}
+                        style={{ backgroundColor: "light" ,opacity:"0.8"}}
                       >
-                        <div className="display-6 text-light">
+                        <div className="display-6 text-dark">
                           Welcome to E-Health Care
                         </div>
                         <div className="text-light">
